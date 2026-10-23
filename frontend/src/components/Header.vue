@@ -32,8 +32,7 @@ const publicNavItems = [
   { to: '/',         label: 'Home',     short: 'Home',     icon: Home },
   { to: '/movies',   label: 'Movies',   short: 'Movies',   icon: Film },
   { to: '/series',   label: 'Series',   short: 'Series',   icon: Film },
-  { to: '/channels', label: 'Channels', short: 'Channels', icon: Tv },
-  { to: '/login', label: 'Login', short: 'Login', icon: Tv }
+  { to: '/channels', label: 'Channels', short: 'Channels', icon: Tv }
 ]
 const navItems = computed(() => publicNavItems)
 const MobileNavItems = computed(() => [
